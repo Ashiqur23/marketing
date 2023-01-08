@@ -10,7 +10,7 @@ header{
     height: 90vh;
 }
 nav{
-    margin-bottom: 90px;
+    margin-bottom: 99px;
 }
 span{
     color: #6a55ff;
@@ -23,8 +23,11 @@ span{
     border-radius: 5px;
     color: #6a55ff;
     display: block;
-    padding: 10px 20px !important;
-    
+    padding: 10px 20px !important;    
+}
+.nev-items{
+    width: 100%;
+    justify-content: end;
 }
 .navbar-nav li a:hover{
     background-color: #6a55ff;
@@ -32,6 +35,7 @@ span{
 }
 .navbar-nav li{
     padding: 0px 10px;
+    
 }
 
 /* hero style  */
@@ -49,9 +53,11 @@ main{
 }
 .hero-img{
     width: 50%;
+    height: 100%;
 }
 .hero-img img{
     width: 100%;
+    height: 100%;
 }
 .hero-title{
     width: 70%;
@@ -186,7 +192,7 @@ main{
     margin-bottom: 20px;
 }
 .fouth-img-box:hover{
-    box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 7px -3px rgba(0,0,0,0.75);
 }
 .fouth-secction-item img{
     width: 80px;
@@ -217,9 +223,6 @@ main{
     padding: 50px;
 }
 
-.fiveth-imb-box img{
-    margin-top: -5 !important;
-}
 .fiveth-items{
     display: flex;
     justify-content: center;
@@ -232,9 +235,13 @@ main{
     margin-left: 20px;
     width: 100%;
     border-radius: 15px;
+    height: 100%;
+}
+.fiveth-item:hover{
+    background-color: #f8f8f8;
 }
 .fiveth-text{
-    padding: 10px ;
+    padding: 10px;
 }
 .fiveth-text h3{
     width: 80%;
@@ -341,6 +348,10 @@ form{
     border: 1px solid #6a55ff;
     border-radius: 5px;
 }
+.form-container input:focus{
+    outline: none;
+    border: 2px solid #6a55ff;
+}
 .form-container input::placeholder {
     color: #6a55ff;
     font-size: 12px;
@@ -406,11 +417,12 @@ footer{
     color: #fff;
     margin: 10px 0px;
 }
-.footer-contact p{
-    margin: 0px;
-    margin-left: 5px;
-}
+
 .footer-item p{
     color: #fff;
     margin: 0px;
+}
+.footer-contact p{
+    margin: 0px;
+    margin-left: 10px;
 }
