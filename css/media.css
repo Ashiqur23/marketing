@@ -7,7 +7,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 .container{
-    margin: 0px 5px !important;
+    margin: 0px 0px !important;
+    padding: 0px 5px !important;
 }
 header{
     background-color: #f8f8f8;
@@ -32,7 +33,7 @@ span{
 }
 /* nav style  */
 .navbar-nav{
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -119,37 +120,45 @@ main{
 /* second section start  */
 .second-section-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .second-section-img{
-    width: 50%;
+    width: 100%;
+    padding: 10px;
 }
 .second-section-img img{
     width: 100%;
 }
 .second-section-content{
-    width: 50%;
-    margin-left: 50px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
 }
 .second-section-title{
     font-weight: 700;
-    width: 60%;
+    width: 100%;
+    font-size: 25px;
+
 }
 .second-section-description{
-    width: 50%;
+    width: 90%;
     margin: 15px 0px;
     line-height: 30px;
+    text-align: justify;
+
 }
 .second-button{
     border: none;
     background-color: #ff592d;
     color: white;
-    padding: 10px 20px;
+    padding: 8px 14px;
     border-radius: 5px;
+    font-size: 14px;
 }
 .second-button:hover{
     border: 2px solid #6a55ff;
@@ -165,12 +174,12 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 100px 0px 20px 0px;
-    padding: 230px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px;
 }
 .third-section-content{
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 .third-section-title{
@@ -179,24 +188,28 @@ main{
 }
 .third-section-items{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 .third-section-item{
-    width: 40%;
-    margin-left: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-radius: 10px;
     padding: 20px;
     cursor: pointer;
+
 }
 .third-section-item:hover{
     background-color: #fff;
     box-shadow: 0px 8px 11px -10px rgba(0,0,0,0.75);
+
 }
 .third-section-item h4{
     margin: 15px 0px;
     font-weight: 600;
-
 }
 .third-section-item p{
     color: #5c5c5c;
@@ -204,12 +217,13 @@ main{
 }
 /* fourth section style start  */
 .fourth-section-content{
-    max-width: 1000px;
-    margin: 50px auto 10px;
-    padding: 50px 50px;
+    max-width: 100%;
+    margin: 20px auto 10px;
+    padding: 0px 0px;
 }
 .fourth-section-items{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -219,62 +233,77 @@ main{
     padding: 30px;
     text-align: center;
     border-radius: 50% 50% 50% 0%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 .fouth-img-box:hover{
     box-shadow: 1px 1px 7px -3px rgba(0,0,0,0.75);
 }
 .fouth-secction-item img{
-    width: 80px;
-    height: 80px;  
+    width: 50px;
+    height: 50px;
 }
 .fouth-secction-item .fourth-span{
     font-weight: 700;
-    font-size: 62px;
+    font-size: 52px;
     margin: 0px;
     color: #000;
 }
 .fouth-secction-item p{
     margin: 0px;
+    padding: 0px;
 }
 .fouth-secction-item .fouth-p{
     margin: 0px;
     color: #000;
+    padding: 0px;
+
+
 }
 
 /* five section style start  */
 .fiveth-section{
     background-color: #f8f8f8;
-    padding: 100px 0px;
+    padding: 0px 0px;
+
 }
 .fiveth-container-title{
     text-align: center;
     font-weight: 700;
-    padding: 50px;
+    padding: 30px;
+    font-size: 25px;
 }
-
+.fiveth-imb-box{
+    width: 100%;
+}
+.fiveth-imb-box img{
+    width: 100%;
+}
 .fiveth-items{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 .fiveth-item{
     background-color: #eae7f9;
-    margin-left: 20px;
+    margin-left: 0px;
     width: 100%;
     border-radius: 15px;
     height: 100%;
+    margin-bottom: 25px;
 }
 .fiveth-item:hover{
     background-color: #f8f8f8;
+    
 }
 .fiveth-text{
     padding: 10px;
 }
 .fiveth-text h3{
-    width: 80%;
+    width: 100%;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -298,6 +327,7 @@ main{
     align-items: center;
     margin: 0px;
     color: #fff;
+    font-size: 12px;
 }
 .fiveth-footer-two p{
     margin: 0px;
@@ -307,53 +337,60 @@ main{
 /* six section style  */
 .six-section{
     background-color: #f6f2ff;
-    padding: 100px 0px;
+    padding: 20px 0px;
 }
 .six-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 .six-container img{
-    width: 150px;
+    width: 40%;
+    margin: 20px 0px;
 }
 
 /* SEVEN SECTION STYLE  */
 .seven-section{
     background-color: #f8f8f8;
-    padding: 100px 0px;
+    padding: 10px 0px;
 }
 .seven-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px;
 }
 .seven-img-box{
-    width: 50%;
+    width: 100%;
 }
 .seven-img-box img{
     width: 100%;
+    margin-left: 6px;
 }
 .seven-content{
-    width: 50%;
+    width: 100%;
 }
 form{
     width: 100%;
-    height: 680px;
+    height: 569px;
     background-image: url("../image/seven-section-img/section-7-background-icon.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+    margin-top: 50px;
+    padding: 0px;
 }
 .form-container{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    margin-top: 50px;
-    margin-left: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
     background-color: #fff;
     position: absolute;
     padding: 40px 20px 20px 20px;
@@ -404,13 +441,13 @@ footer{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 69vh ;
+    height: 100px;
     margin-bottom: 2px;
+    border: 1px solid red;
 }
 .footer-content{
     padding-top: 150px;
     height: 600px;
-    max-width: 1200px;
     margin: 0px auto;
 }
 .footer-items{
