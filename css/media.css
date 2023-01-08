@@ -1,10 +1,11 @@
-@media (max-width: 767px) and (min-width: 250px)  {
+@media (max-width: 1200px) and (min-width: 250px)  {
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
 }
 .container{
     margin: 0px 0px !important;
@@ -438,33 +439,41 @@ form{
 
 footer{
     background-image: url("../image/footer-img/footer-bg.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100px;
+    height: 100vh;
     margin-bottom: 2px;
-    border: 1px solid red;
 }
 .footer-content{
     padding-top: 150px;
-    height: 600px;
+    height: 100%;
     margin: 0px auto;
 }
 .footer-items{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 100px;
+    margin-top: 0px;
+    height: 100%;
+    margin-top: 0%;
 }
 .footer-item{
-    width: 33.5%;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 40px;
 }
 .footer-discription{
     color: #fff;
     margin-top: 15px;
     margin-bottom: 15px;
     line-height: 35px;
-    width: 70%;
+    border: 1px solid red;
+    width: 100%;
+    
 }
 .footer-icon-group i{
     background-color: white;
@@ -479,10 +488,10 @@ footer{
 }
 .footer-contact{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     color: #fff;
-    margin: 10px 0px;
+    margin: 10px auto;
 }
 
 .footer-item p{
