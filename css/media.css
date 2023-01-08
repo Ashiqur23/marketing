@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
+    overflow: hidden;
 }
 .container{
     margin: 0px 0px !important;
