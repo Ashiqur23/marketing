@@ -6,21 +6,21 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    overflow: hidden;
 }
 .container{
     margin: 0px 0px !important;
     padding: 0px 5px !important;
+    overflow: hidden;
 }
 header{
     background-color: #f8f8f8;
     height: 100vh;
 }
+
 .nav-flex{
     display: flex;
     justify-content: space-between;
     padding: 0px;
-    border: 1px solid red;
     width: 100%;
 }
 nav{
@@ -484,6 +484,9 @@ footer{
     border-radius: 50%;
     margin-right: 10px;
     margin-top: 20px;
+}
+.footer-icon-group i:first-child{
+    padding: 10px 13px;
 }
 .footer-item h2{
     color: #fff;
