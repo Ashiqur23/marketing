@@ -7,7 +7,7 @@
 }
 header{
     background-color: #f8f8f8;
-    height: 100vh;
+    height: 90vh;
 }
 nav{
     background-color: #ffffff;
@@ -19,6 +19,10 @@ nav{
 }
 span{
     color: #6a55ff;
+    cursor: pointer;
+}
+span:hover{
+    transform: rotate(20deg);
 }
 /* nav style  */
 .navbar-nav li a{
@@ -37,6 +41,7 @@ span{
 .navbar-nav li a:hover{
     background-color: #6a55ff;
     color: #fff;
+    transition: all 0.5s ease-in-out;
 }
 .navbar-nav li{
     padding: 0px 10px;
@@ -46,7 +51,8 @@ span{
 /* hero style  */
 main{
     height: 100%;
-
+    position: relative;
+    top: 12vh;
 }
 .hero-section{
     display: flex;
@@ -56,12 +62,10 @@ main{
 .hero-content{
     width: 50%;
     margin-left: 40px;
-    margin-top: 100px;
 }
 .hero-img{
     width: 50%;
     height: 100%;
-    margin-top: 100px;
 }
 .hero-img img{
     width: 100%;
@@ -74,24 +78,25 @@ main{
     font-weight: 700;
 }
 .hero-description{
-    width: 60%;
+    width: 90%;
     text-align: justify;
     line-height: 30px;
     margin: 15px 0px;
+    font-size: 16px;
 }
 .hero-button{
     border: none;
     background-color: #ff592d;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
 }
 .hero-button:hover{
     border: 1px solid #6a55ff;
     background-color: #f8f8f8;
     color: #6a55ff;
-    padding: 9px 19px;
-    border-radius: 5px;
+    padding: 10px 30px;
+    transition: all 0.5s ease-in-out ;
 }
 
 /* second section start  */
@@ -118,7 +123,7 @@ main{
     width: 60%;
 }
 .second-section-description{
-    width: 50%;
+    width: 90%;
     margin: 15px 0px;
     line-height: 30px;
 }
@@ -128,13 +133,14 @@ main{
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    transition:  background-color 0.5s ease-in-out;
+
 }
 .second-button:hover{
     border: 2px solid #6a55ff;
     background-color: #ffffff;
     color: #6a55ff;
     padding: 8px 18px;
-    border-radius: 5px;
 }
 
 /* third section style start  */
@@ -201,6 +207,7 @@ main{
 }
 .fouth-img-box:hover{
     box-shadow: 1px 1px 7px -3px rgba(0,0,0,0.75);
+    transition: box-shadow 0.3s ease-in-out ;
 }
 .fouth-secction-item img{
     width: 80px;
@@ -247,6 +254,8 @@ main{
 }
 .fiveth-item:hover{
     background-color: #f8f8f8;
+    transition: background-color 0.3s ease-in-out ;
+
 }
 .fiveth-text{
     padding: 10px;
@@ -315,6 +324,7 @@ main{
 .seven-content{
     width: 50%;
 }
+/* footer */
 form{
     width: 100%;
     height: 680px;
@@ -389,7 +399,6 @@ footer{
     padding-top: 150px;
     height: 600px;
     max-width: 1200px;
-    margin: 0px auto;
 }
 .footer-items{
     display: flex;
@@ -398,14 +407,13 @@ footer{
     margin-top: 100px;
 }
 .footer-item{
-    width: 33.5%;
+    width: 100%;
 }
 .footer-discription{
     color: #fff;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    line-height: 35px;
-    width: 70%;
+    margin: 0px;
+    line-height: 30px;
+    width: 100%;
 }
 .footer-icon-group i{
     background-color: white;
