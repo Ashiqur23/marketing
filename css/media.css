@@ -16,7 +16,6 @@ header{
     background-color: #f8f8f8;
     height: 100%;
     width: 100%;
-
 }
 .nav-flex{
     display: flex;
@@ -346,8 +345,8 @@ footer{
     margin-left: 10px;
 }
 }
-/* max width 576px  */
-@media (max-width: 768px) and (min-width: 577px){
+/* max width 992px  */
+@media (max-width: 992px) and (min-width: 577px){
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
     header{
         background-color: #f8f8f8;
@@ -356,6 +355,7 @@ footer{
     .container{
         margin: 0px 0px !important;
         max-width: 0px ;
+        overflow: hidden;
     }
     .nav-container{
         width: 100% !important;
@@ -413,14 +413,15 @@ main{
     max-width: 768px !important;
 }
 .hero-section{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
     background-color: #f8f8f8;
-    padding-bottom: 5px;
     width: 100%;
     height: 100%;
     padding: 0px 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .hero-content{
     width: 50%;
@@ -429,6 +430,9 @@ main{
 }
 .hero-img{
     width: 50%;    
+}
+.hero-img img{
+    width: 100%;    
 }
 .hero-title{
     width: 90%;
@@ -467,6 +471,8 @@ main{
     justify-content: center;
     padding: 20px 10px;
     margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .second-section-img{
     width: 100%;
@@ -476,7 +482,7 @@ main{
 }
 .second-section-content{
     width: 100%;
-    margin-left: 0px;
+    margin-left: 20px;
 }
 .second-section-title{
     font-weight: 700;
@@ -703,7 +709,7 @@ footer{
 }
 }
 
-@media (max-width: 992px) and (min-width: 769px){
+@media screen and (min-width: 993px) and (max-width: 2100px){
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
     header{
         background-color: #f8f8f8;
@@ -769,21 +775,26 @@ footer{
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin: 0px 100px;
     }
     main{
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0px;
+        background-color: #f8f8f8;
+
     }
 
     .hero-content{
         width: 50%;
         margin-left: 0px;
         margin-top: 0px;
+        overflow: hidden;
     }
     .hero-img{
         width: 50%;    
+        overflow: hidden;
     }
     .hero-title{
         width: 90%;
@@ -801,7 +812,6 @@ footer{
     }
     .hero-button{
         border: none;
-        background-color: #ff592d;
         color: white;
         padding: 5px 8px;
         border-radius: 5px;
@@ -815,10 +825,11 @@ footer{
     }
     /* second section start  */
     .second-section-container{
-        margin: 0px;
         justify-content: space-between;
         padding: 20px 10px;
-        margin-top: 0px;
+        max-width: 100%;
+        margin: 0px 100px;
+        margin-top: 250px;
     }
     .second-section-img{
         width: 50%;
@@ -835,7 +846,7 @@ footer{
         width: 100%;
     }
     .second-section-description{
-        width: 100%;
+        width: 90%;
         margin: 15px 0px;
         line-height: 30px;
     }
@@ -850,10 +861,11 @@ footer{
         background-size: cover;
         margin: 0px 0px 0px 0px;
         padding: 0px 0px;
+        max-width: 100%;
     }
     .third-section-content{
         text-align: center;
-        width: 100%;
+        width: 80%;
         margin: auto;
     }
     .third-section-title{
@@ -890,7 +902,7 @@ footer{
     /* fourth section style start  */
     
     .fourth-section-content{
-        max-width: 100%;
+        max-width: 80%;
         margin: 0px auto 0px;
         padding: 0px 0px;
     }
@@ -916,7 +928,7 @@ footer{
         flex-direction: row;
         width: 100%;
         margin: auto;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
     }
     .fiveth-imb-box img{
         width: 100%;
@@ -955,6 +967,8 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
         padding: 0px 20px;
+        width: 80%;
+        margin: 0 auto;
     }
     .six-container img{
         width: 100px;
@@ -969,6 +983,7 @@ footer{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin: 0px 100px;
     }
     .seven-img-box{
         width: 50%;
@@ -1010,10 +1025,12 @@ footer{
     }
     .footer-items{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         margin-top: 0px;
+        margin: 0px 100px;
     }
     .footer-item{
         width: 100%;
